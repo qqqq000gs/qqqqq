@@ -35,7 +35,7 @@ ydl_opts = {
 }
 
 
-@Client.on_message(command(["حمل", f"song@{bn}"]) & ~filters.edited)
+@Client.on_message(command(["حمل","ح" f"song@{bn}"]) & ~filters.edited)
 def song(_, message):
     query = " ".join(message.command[1:])
     m = message.reply("🔎 finding song...")
@@ -87,7 +87,7 @@ def song(_, message):
 
 
 @Client.on_message(
-    command(["دور", f"vsong@{bn}", "video", f"video@{bn}"]) & ~filters.edited
+    command(["بحث فيديو", f"vsong@{bn}", "video", f"video@{bn}"]) & ~filters.edited
 )
 async def vsong(client, message):
     ydl_opts = {
