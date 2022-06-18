@@ -74,7 +74,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹قناة السورس›", url=f"https://t.me/QII_ll"
+                        "‹ قناة السورس ›" ، url = f "https://t.me/X_8_00"
                     ),
                     InlineKeyboardButton(
                         "‹قناة البوت›", url=f"https://t.me/{UPDATES_CHANNEL}"
@@ -82,7 +82,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "‹لتنصيب بوت مماثل›", url="https://t.me/ghost022"
+                        "‹ لتنصيب بوت ›" ، url = "https://t.me/N_J_9"
                     )
                 ],
             ]
@@ -102,9 +102,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("قناة البوت", url=f"https://t.me/QII_ll"),
+                InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/ghost022"
+                    "مطور السورس" ، url = f "https://t.me/N_J_9"
                 ),
             ]
         ]
@@ -129,9 +129,9 @@ async def src(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("قناة البوت", url=f"https://t.me/QII_ll"),
+                InlineKeyboardButton ( "قناة البوت" ، url = f "https://t.me/X_8_00" ) ،
                 InlineKeyboardButton(
-                    "مطور السورس", url=f"https://t.me/ghost022"
+                    "مطور السورس" ، url = f "https://t.me/N_J_9"
                 ),
             ]
         ]
